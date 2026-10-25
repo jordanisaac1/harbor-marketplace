@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Harbor — free apps that run on your Mac</title>
+<style>
+  :root { --bg: #fbfbfd; --fg: #1d1d1f; --muted: #6e6e73; --card: #fff; --line: #e5e5ea; --accent: #0a66d8; }
+  @media (prefers-color-scheme: dark) { :root { --bg: #111113; --fg: #f5f5f7; --muted: #a1a1a6; --card: #1c1c1f; --line: #2c2c30; --accent: #4c9bff; } }
+  * { box-sizing: border-box; }
+  body { margin: 0; font: 16px/1.5 -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", sans-serif; background: var(--bg); color: var(--fg); }
+  main { max-width: 960px; margin: 0 auto; padding: 72px 16px; }
+  h1 { font-size: clamp(36px, 6vw, 56px); line-height: 1.05; letter-spacing: -0.02em; margin: 0 0 16px; }
+  .lede { font-size: 20px; color: var(--muted); max-width: 40em; margin: 0 0 32px; }
+  .get { display: inline-block; background: var(--accent); color: #fff; text-decoration: none; padding: 12px 24px; border-radius: 999px; font-weight: 600; }
+  .req { color: var(--muted); font-size: 14px; margin-top: 12px; }
+  .first-open { margin-top: 20px; max-width: 40em; color: var(--muted); font-size: 15px; }
+  .first-open summary { cursor: pointer; color: var(--fg); font-weight: 600; }
+  .first-open li { margin: 6px 0; }
+  .points { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 16px; margin: 56px 0; padding: 0; list-style: none; }
+  .points li { border-top: 1px solid var(--line); padding-top: 12px; }
+  .points b { display: block; }
+  .points span { color: var(--muted); }
+  h2 { font-size: 24px; margin: 0 0 16px; }
+  .apps { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 12px; padding: 0; list-style: none; }
+  .app { display: flex; gap: 14px; background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 16px; }
+  .app img { border-radius: 14px; flex: none; }
+  .app h3 { margin: 0; font-size: 17px; }
+  .app p { margin: 2px 0 6px; color: var(--muted); font-size: 14px; }
+  .meta { font-size: 12px; color: var(--muted); text-transform: capitalize; }
+  footer { margin-top: 56px; color: var(--muted); font-size: 13px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Free apps that run on your Mac.</h1>
+  <p class="lede">Harbor installs small, private apps with one click. They run on your computer, work offline, and keep your data on your Mac.</p>
+  <a class="get" href="https://github.com/jordanisaac1/harbor-marketplace/releases/latest/download/Harbor.dmg">Get Harbor</a>
+  <p class="req">For macOS 14 or later on Apple Silicon</p>
+  <details class="first-open">
+    <summary>Opening Harbor the first time</summary>
+    <ol>
+      <li>Open the downloaded file and drag Harbor into Applications.</li>
+      <li>Open Harbor. macOS says it can't check it for malicious software, because Harbor is free and not registered with Apple. Click <b>Done</b>.</li>
+      <li>Open <b>System Settings → Privacy &amp; Security</b>, scroll down, and click <b>Open Anyway</b> next to the message about Harbor. Confirm with your password.</li>
+    </ol>
+    <p>You only do this once. Harbor updates itself after that.</p>
+  </details>
+  <ul class="points">
+    <li><b>Runs on your Mac</b><span>No accounts, no cloud, no subscriptions.</span></li>
+    <li><b>Your data stays here</b><span>Everything you make is saved on this computer.</span></li>
+    <li><b>One click to install</b><span>And one click to remove.</span></li>
+  </ul>
+  <h2>2 apps</h2>
+  <ul class="apps">
+      <li class="app">
+        <img src="apps/com.harbor.csv-cleaner/icon.png" alt="" width="64" height="64">
+        <div>
+          <h3>CSV Cleaner</h3>
+          <p>Tidy up messy spreadsheets: trim spaces, remove duplicates and empty rows.</p>
+          <span class="meta">data · v1.0.0</span>
+        </div>
+      </li>
+      <li class="app">
+        <img src="apps/com.harbor.notes/icon.png" alt="" width="64" height="64">
+        <div>
+          <h3>Notes</h3>
+          <p>Simple notes with tags and search, saved on your Mac.</p>
+          <span class="meta">productivity · v1.0.0</span>
+        </div>
+      </li>
+  </ul>
+  <footer>Updated 2026-10-25</footer>
+</main>
+</body>
+</html>

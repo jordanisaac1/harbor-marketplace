@@ -1,0 +1,52 @@
+{
+  "schema": 1,
+  "generatedAt": "2026-10-25T22:20:08Z",
+  "publisherKey": "RWS5dhcdV607KIHgf5smLT8pa6teCrCKmplbGxVhYo6hf0UeyOhUJQ3Q",
+  "apps": [
+    {
+      "id": "com.harbor.csv-cleaner",
+      "name": "CSV Cleaner",
+      "description": "Tidy up messy spreadsheets: trim spaces, remove duplicates and empty rows.",
+      "category": "data",
+      "icon": "apps/com.harbor.csv-cleaner/icon.png",
+      "latest": "1.0.0",
+      "versions": [
+        {
+          "version": "1.0.0",
+          "url": "apps/com.harbor.csv-cleaner/1.0.0.harbor",
+          "sha256": "2cd84aa5fe0715e82db9c8b6ef5d713df8c6d2db2ac1f957621076803e78ccb4",
+          "size": 6996708,
+          "minHarbor": "1.0.0",
+          "publishedAt": "2026-10-25",
+          "notes": "First release"
+        }
+      ],
+      "readme": "apps/com.harbor.csv-cleaner/README.md",
+      "permissions": [
+        "files:read",
+        "files:write"
+      ]
+    },
+    {
+      "id": "com.harbor.notes",
+      "name": "Notes",
+      "description": "Simple notes with tags and search, saved on your Mac.",
+      "category": "productivity",
+      "icon": "apps/com.harbor.notes/icon.png",
+      "latest": "1.0.0",
+      "versions": [
+        {
+          "version": "1.0.0",
+          "url": "apps/com.harbor.notes/1.0.0.harbor",
+          "sha256": "8307234b88d5706ff761951420acda04906a9685e7396b8fcfd27a1dae3cd85d",
+          "size": 958040,
+          "minHarbor": "1.0.0",
+          "publishedAt": "2026-10-25",
+          "notes": "First release"
+        }
+      ],
+      "readme": "apps/com.harbor.notes/README.md",
+      "permissions": []
+    }
+  ]
+}
