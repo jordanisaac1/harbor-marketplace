@@ -1,11 +1,11 @@
 {
-  "version": "1.0.0",
-  "notes": "First release of Harbor.",
-  "pub_date": "2026-10-25T22:23:55.547Z",
+  "version": "1.0.1",
+  "notes": "Refresh button in the Marketplace, which also checks for new apps whenever you open it.",
+  "pub_date": "2026-10-25T23:03:27.584Z",
   "platforms": {
     "darwin-aarch64": {
-      "url": "https://github.com/jordanisaac1/harbor-marketplace/releases/download/v1.0.0/Harbor-aarch64.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRcEl2Ymt6dnpMeTN0N2dhbUdHQ3JEZ3F3ckMwc3dYTUoyanQralRjTVlvUVYvOUhNMFB5QWV6dEQ3MUhObEt5MlkzOER2bWVUcURuRmJqQ0RvYy9aMHZGUUVScXh5M1FZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyOTY3MDIzCWZpbGU6SGFyYm9yLmFwcC50YXIuZ3oJdmVyc2lvbjoxLjAuMApRckZPejB6SVNHakMrOElzbmtabzFMNHFzYVRVK0JMeHp2b1dPdmQzTEFlOWdtczIxT3VMRHNXODFtMEJoSDB2a1FXT1RUdXVmS1VDVmF5MDl4RlJCUT09Cg=="
+      "url": "https://github.com/jordanisaac1/harbor-marketplace/releases/download/v1.0.1/Harbor-aarch64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRcEl2Ymt6dnpMeTBEaW5wZGUxWElHQmtqQTdHWVdaTjdmbllIU1Zndk5XekxqM1RCQ2RVYUlvc0s2MDBqZTBDN3h0T05JWlYzaEJjY2tpVmdBdFRXZnR6VDEwRHhvdGdnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyOTY5Mzk0CWZpbGU6SGFyYm9yLmFwcC50YXIuZ3oJdmVyc2lvbjoxLjAuMQpPeDlqTkF0L25BOFJBTXBCNGNZNVpWeUFkQ2JpN2tMUGM2YXZhSzhNUmJrU3dFbWlVNjh3TGFHdlpOV1BjT3lPMnVHd0VUcG5HYmhxaEUvRHo0Mk1Cdz09Cg=="
     }
   }
 }
