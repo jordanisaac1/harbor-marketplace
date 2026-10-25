@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-25T22:20:08Z",
+  "generatedAt": "2026-10-25T22:55:19Z",
   "publisherKey": "RWS5dhcdV607KIHgf5smLT8pa6teCrCKmplbGxVhYo6hf0UeyOhUJQ3Q",
   "apps": [
     {
@@ -24,6 +24,29 @@
       "readme": "apps/com.harbor.csv-cleaner/README.md",
       "permissions": [
         "files:read",
+        "files:write"
+      ]
+    },
+    {
+      "id": "com.harbor.mat-journal",
+      "name": "Mat Journal",
+      "description": "Log BJJ training, track every technique, set goals and level up as you go.",
+      "category": "health",
+      "icon": "apps/com.harbor.mat-journal/icon.png",
+      "latest": "1.0.0",
+      "versions": [
+        {
+          "version": "1.0.0",
+          "url": "apps/com.harbor.mat-journal/1.0.0.harbor",
+          "sha256": "a2875f3a6bf04148c914815c3f433518671dcf97326e2beff4ec50b3935f54b7",
+          "size": 1000787,
+          "minHarbor": "1.0.0",
+          "publishedAt": "2026-10-25",
+          "notes": "First release: check-ins, skills, goals, weekly objectives and achievements."
+        }
+      ],
+      "readme": "apps/com.harbor.mat-journal/README.md",
+      "permissions": [
         "files:write"
       ]
     },
